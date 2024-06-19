@@ -1,0 +1,72 @@
+.footer-container {
+  background-color: green;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-section {
+  flex: 1 1 100%;
+  max-width: 300px;
+  margin: 0 10px;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  margin-bottom: 5px;
+}
+
+.footer-section form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-section input {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  flex: 1 1 auto;
+  min-width: 200px;
+}
+
+.footer-section button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcc00;
+  color: black;
+  cursor: pointer;
+}
+
+.footer-section button:hover {
+  background-color: yellow;
+}
+
+.footer-section svg {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+  .footer-section {
+    flex: 1;
+    max-width: none;
+  }
+
+  .footer-section input {
+    min-width: auto;
+  }
+}

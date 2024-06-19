@@ -1,0 +1,189 @@
+
+.con {
+  border-radius: 20px;
+  height: 510px;
+  width: 410px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.con:hover {
+  background-color: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 0 20px 5px rgba(0, 255, 255, 0.8);
+}
+
+.scrolling-image {
+  height: 500px;
+  width: 400px;
+  max-width: 100%;
+  border-radius: 30px !important;
+  padding: 30px;
+}
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(2.2); /* Adjust brightness as needed */
+}
+
+.content-overlay {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.main-section {
+  padding: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.main-section:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 20px 5px rgba(0, 255, 255, 0.8);
+}
+
+.main-image-container {
+  text-align: center;
+}
+
+.main-image {
+  height: 600px;
+  width: 500px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.description-container h2,
+.description-container h4 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.description-container p,
+.description-container ul {
+  margin-bottom: 10px;
+}
+
+.description-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.description-container ul li {
+  margin-bottom: 5px;
+}
+
+.description-container:hover {
+  transform: scale(1.05);
+}
+
+.scrolling-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.scrolling-image-container {
+  margin: 10px 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  width: 33.333%; /* Ensures 3 per row on larger screens */
+  padding: 10px; /* Space between images */
+}/* CSS for the glowing effect */
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.scrolling-image-container:hover .scrolling-image {
+  transform: scale(1.05);
+}
+
+.popover {
+  max-width: 200px;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+.popover-header {
+  font-weight: bold;
+}
+
+.popover-body {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1200px) {
+  .scrolling-image-container {
+    width: 50%; /* 2 per row */
+  }
+}
+
+@media (max-width: 900px) {
+  .scrolling-image-container {
+    width: 100%; /* 1 per row */
+  }
+
+  .main-image {
+    height: auto;
+    width: auto;
+    margin-bottom: 20px;
+  }
+ .con,.image-container{
+  margin:10px auto;
+  height: fit-content;
+  width: fit-content;
+ }
+  .description-container {
+    padding: 15px;
+  }
+
+  .description-container h2,
+  .description-container h4 {
+    font-size: 1.25rem;
+  }
+
+  .description-container p,
+  .description-container ul {
+    font-size: 0.875rem;
+  }
+}
+

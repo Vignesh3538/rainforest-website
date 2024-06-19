@@ -1,0 +1,132 @@
+.custom-navbar {
+  width: 100%;
+  background-color: green;
+  transition: top 0.3s ease;
+  border-radius: 10px;
+  margin-bottom: auto;
+}
+.custom-popover {
+  max-width: 250px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  color: #333; /* Dark text color */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.custom-popover .popover-header {
+  background-color: #008080; /* Custom header background color */
+  color: #fff; /* Header text color */
+  border-bottom: 1px solid #ccc; /* Bottom border color */
+  border-radius: 8px 8px 0 0; /* Rounded top corners */
+  padding: 8px 12px; /* Padding for header */
+}
+
+.custom-popover .popover-body {
+  padding: 12px; /* Padding for body content */
+}
+
+.custom-popover .popover-body a {
+  color: #007acc; /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold font weight */
+}
+
+.custom-popover .popover-body a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left {
+  padding: 10px;
+}
+
+.nav-right {
+  padding-left: 100px;
+}
+
+.nav-right .navbar-toggler {
+  margin-top: auto;
+  margin-left: auto;
+}
+
+.navbar-brand {
+  margin-right: auto;
+  font-weight: bolder;
+}
+
+.nav-item {
+  color: white !important;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item svg {
+  margin-right: 8px;
+}
+
+.nav-item:hover {
+  color: yellow !important;
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: center;
+}
+
+.popover {
+  pointer-events: auto;
+}
+
+.popover-body {
+  pointer-events: auto;
+}
+
+.popover {
+  max-width: 200px;
+}
+
+.popover:hover {
+  display: block;
+}
+
+.navbar-toggler {
+  border: 2px solid lightcyan;
+  margin-left: auto;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:hover {
+  outline: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.custom-x-mark {
+  font-size: 40px;
+  color: white;
+}
+
+/* Sticky navbar styles */
+.custom-navbar.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  padding-left: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}/* Media queries for small screens */

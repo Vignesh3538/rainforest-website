@@ -1,0 +1,52 @@
+/* Custom styles for Threats component */
+.custom-button {
+    border:none !important;
+    background: linear-gradient(to right, #ffffff, #82ffea, #ffffff);
+    color: #1c5378 !important; /* Blue text color */
+    margin-bottom: 10px; /* Bottom margin for buttons */
+    padding: 8px 20px; /* Padding for buttons */
+    font-weight: bold !important;
+    font-size: 1.25rem !important;
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+  }
+  
+  .custom-button:hover {
+    background-color: #3498db; /* Blue background on hover */
+    color: #fff; /* White text color on hover */
+    box-shadow: 0 0 20px 3px rgba(0, 255, 255, 0.8);
+  }
+  .conta{
+    margin-top: 20px;
+  }
+  .custom-card {
+    background: linear-gradient(to right, #ffffff, #add8e6, #ffffff); /* Linear gradient background for cards */
+    color: #16ffdcad; /* White text color */
+    border: none; /* Remove border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for cards */
+    transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
+    margin-bottom: 20px; /* Bottom margin for cards */
+  }
+  
+  .custom-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Larger box shadow on hover */
+  }
+  
+  .custom-header {
+    background: transparent; /* Transparent background for header */
+     /* White text color for header */
+  }
+  
+  .custom-card-body {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background for card body */
+    padding: 20px; /* Padding for card body */
+  }
+  
+  .threats-image {
+    width: 100%; /* Full width for the image */
+    margin-top: 20px; /* Top margin for the image */
+  }
+  .my-4{
+    color: aliceblue;
+    margin:0px auto;
+  }
+  

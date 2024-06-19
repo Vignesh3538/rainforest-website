@@ -1,0 +1,79 @@
+
+
+  .head{
+    text-align: center;
+    font: bolder;
+    margin:10px;
+  }
+  .get-involved-subcategory {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #2e7d32;
+  }
+  
+  .get-involved-event-card {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+    margin-bottom: 20px;
+  }
+  
+  .get-involved-event-card.visible {
+    opacity: 1;
+  }
+  
+  .event-card {
+    height: fit-content; /* Adjust the height as needed */
+    background-size:auto; /* Ensures the background image covers the entire container */
+    background-position: center; /* Centers the background image */
+    background-repeat: repeat-x !important; 
+   border-radius: 10px;
+    max-width: 80%;
+    margin:0 auto;
+  }
+  .event-body{
+    background: linear-gradient(to right, #e0f7fa, #a7ffeb, #e0f7fa);
+    margin: 10px auto;
+    border-radius: 10px; 
+  }
+.subcategory-heading {
+    color: #28a745; /* Change this to your preferred green color */
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  .get-involved-card-header {
+    font-weight: bold;
+    font-size: 1.25rem;
+    background-color: #004d40;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px 5px 0 0;
+  }
+  .date-time-container {
+    display: flex;
+    margin-left:auto;
+    background-color: #e0f7fa;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding:4px;
+    box-shadow: 0 0 0px 1px rgba(190, 205, 205, 0.8);
+  }
+  .date-time-container:hover{
+    box-shadow: 0 0 20px 5px rgba(153, 240, 240, 0.8);
+  }
+  
+  .get-involved-button {
+    background-color: #a7ffeb;
+    border-color: #a7ffeb;
+    color: #004d40;
+    margin-top: 10px;
+  }
+  .text-right {
+    text-align: right;
+  }
+  
+  .get-involved-button:hover {
+    background-color: #80deea;
+    border-color: #80deea;
+    color: #004d40;
+  }
+  
