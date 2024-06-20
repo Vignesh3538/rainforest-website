@@ -1,1 +1,11 @@
+.butt{
+    justify-content: space-between;
+    margin-right: auto;
+}
+hr {
+        height: 10px; /* Adjust thickness */
+        border: none;
+        background: linear-gradient(to right, rgb(22, 22, 22), #0f0, rgb(9, 9, 9)); /* Gradient colors */
+}
+      
 

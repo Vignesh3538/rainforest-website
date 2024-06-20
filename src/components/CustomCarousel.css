@@ -1,0 +1,109 @@
+.custom-carousel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.custom-carousel-card{
+  border:8px solid #1c5378;
+}
+.custom-carousel-container {
+  width: auto;
+  margin: 0 2rem;
+  max-width: 80%;
+}
+
+.custom-carousel-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: darkgreen;
+}
+
+.custom-carousel-subheading {
+  text-align: center;
+  font-size: 1.5rem;
+  color:lightgreen;
+  margin-bottom: 2rem;
+}
+
+.carousel-content {
+  overflow: hidden;
+}
+
+.custom-carousel-cards {
+  display: flex;
+  transition: transform 1.5s ease-in-out;
+}
+
+.custom-carousel-card-container {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+@media (max-width: 992px) {
+  .custom-carousel-card-container {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-carousel-card-container {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.custom-carousel-card {
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.carousel-control-prev,
+.carousel-control-next {
+  cursor: pointer;
+  font-size: 2rem;
+  color: lightgreen !important;
+  user-select: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.carousel-control-prev {
+  position: absolute;
+  top:20%;
+  left: 2px;
+}
+
+.carousel-control-next {
+  position: absolute;
+  top:20%;
+  right: 2px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  color: green !important;
+}
+
+.custom-carousel-dots {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.custom-carousel-dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: lightgray;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.custom-carousel-dot.active {
+  background-color: green;
+}

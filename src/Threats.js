@@ -93,7 +93,7 @@ const Threats = () => {
       <div className="content-overlay">
         <Container>
           <div className="my-4">
-        <h1>Threats to the Western Ghats</h1>
+        <h1 className='h1t'>Threats to the Western Ghats</h1>
         </div>
         <Row className="main-section">
               <Col md={6} className="main-image-container">
